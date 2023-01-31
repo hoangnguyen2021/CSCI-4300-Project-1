@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+label {
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+input[type=text], input[type=email] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 94%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+textarea {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  width: 94%;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+dt {
+  display: inline-block;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125em;
+}
+
+dd {
+  display: inline-block;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125em;
+}
+
+a {
+  color: #3ddc84;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #073042;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #073042;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.border-primary {
+  border-color: #073042;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.top {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.middle {
+  padding: 24px 0;
+}
+
+.bottom {
+  padding: 24px 0;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-primary {
+  background-color: #073042;
+}
+
+.background-secondary {
+  background-color: #475a64;
+}
+
+.background-tertiary {
+  background-color: #3ddc84;
+}
+
+.vertical-container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-container-stretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.horizontal-container-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-container-evenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.screen-height {
+  max-height: 100vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-left {
+  left: 0;
+  bottom: 0;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.gap-y-md {
+  row-gap: 0.75rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));;
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.medium-icon {
+  max-width: 50px;
+  height: auto;
+}
+
+.large-icon {
+  max-width: 75px;
+  height: auto;
+}
+
+.xl-icon {
+  max-width: 100px;
+  height: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-green {
+  color: #3ddc84;
+}
+
+.text-secondary {
+  color: #475a64;
+}
+
+.text-primary {
+  color: #073042;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img.profile-pic {
+  max-width: 8%;
+  height: auto;
+  border-radius: 9999px;
+  border-width: 5px;
+  border-color: #073042;
+  border-style: solid;
+}
+
+.primary-button {
+  background: #3ddc84 none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.125em;
+  border: 1px none transparent;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.primary-button:hover {
+  background: #073042 none;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 28rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
